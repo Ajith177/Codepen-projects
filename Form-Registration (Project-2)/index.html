@@ -1,0 +1,73 @@
+<!-- Form-Registration  and Validation -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h2><u>Form-validation</u></h2>
+        </center>
+    </header>
+
+    <section>
+        <p class="Register">Registration-form</p>
+
+            <form class="form">
+
+                <div class="content-full">
+                    <label for="Name" class="name">Name:</label><br>
+                    <input type="text" class="text-content" id="text" placeholder="Enter the name">
+                    <br><br>
+
+                    <label for ="Password" class="name">Password:</label><br>
+                    <input type="password" class="password-content" id="password" placeholder="Enter your Password">
+                    <br><br>
+
+                    <label for="Confirm-password" class="name">Confirm-Password:</label><br>
+                    <input type="password" class="Confirmation-content" id="confirmation" placeholder="Password-confirmation">
+                    <br><br>
+
+                </div>
+
+
+            </form>
+
+        <input type="submit" class="submit" id="submit-btn">
+
+        
+    </section>
+
+    <section>
+        <center>
+            <h3><u>Adding the TODOLIST</u></h3>
+        </center>
+
+        <div class="todolist-start">
+            <input type="text-box" id="value-box" class="box-value" placeholder="Enter the values">
+            <input type="submit" value="ADD" class="adding" id="adding_the_todolist">
+
+            
+        </div>
+
+    </section>
+
+    <section>
+
+        <div id="content-todo">
+
+
+
+        </div>
+
+    </section>
+
+    <script type="module" src="index.js">
+
+    </script>
+</body>
+</html>
